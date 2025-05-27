@@ -1,0 +1,13 @@
+// filepath: c:\Users\NIMROD\Desktop\Finance-Tracker\tsconfig.json
+
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}
+
+// Make sure the 'src' folder exists and contains at least one .ts or .tsx file.
