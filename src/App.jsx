@@ -1,7 +1,12 @@
 import React from "react";
+import Header from "./components/Header/Header.jsx";
 
 const App = () => {
-  return <div>Finance App</div>;
+  return (
+    <>
+      <Header />
+    </>
+  );
 };
 
 export default App;
