@@ -1,7 +1,13 @@
 import React from "react";
 
 const Header = () => {
-  return <div>Finance App</div>;
+
+  return (
+    <>
+      <header>Finance App Yeah😂👌....</header>
+    </>
+  );
+
 };
 
 export default Header;
