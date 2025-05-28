@@ -1,13 +1,12 @@
 import React from "react";
-import TransactionForm from "./components/TransactionForm/TransactionForm";
-
-import Header from "./components/Header/Header.jsx";
+import Dashboard from "./pages/Dashboard";
+import "./App.css";
 
 const App = () => {
   return (
-    <div>
-      <TransactionForm />
-    </div>
+    <>
+      <Dashboard />
+    </>
   );
 };
 
