@@ -1,7 +1,6 @@
 import React from "react";
 
 const TransactionForm = () => {
-
   return (
     <>
       <form>
@@ -13,7 +12,6 @@ const TransactionForm = () => {
     </>
   );
   return <div>TransactionForm</div>;
-
 };
 
 export default TransactionForm;
